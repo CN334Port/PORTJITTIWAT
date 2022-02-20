@@ -39,7 +39,7 @@
                     <textarea class="form-control my-3" style="height: 150px" name="description" placeholder="Enter description">{{ $post->description }}</textarea>
                 </div>
             </div>
-            <div class=col-md-12>
+            <div class="col-md-12">
                 <button type="Submit" class="btn btn-success my-3">Update</button>
             </div>
         </div> 
