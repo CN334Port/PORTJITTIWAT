@@ -66,7 +66,6 @@
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-          <li><a href="{{ url('posts') }}" class="nav-link scrollto"><i class="bi bi-reply-all"></i> <span>Advice Me</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
