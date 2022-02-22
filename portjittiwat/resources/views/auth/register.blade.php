@@ -57,7 +57,7 @@
 <style>
     .login-dark {
   height:1000px;
-  background:#475d62 url(../../assets/img/retro.png);
+  background:#475d62 
   background-size:cover;
   position:relative;
 }
@@ -126,6 +126,13 @@
 .login-dark form .btn-primary:active {
   transform:translateY(1px);
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
 
 
 </style>
@@ -140,6 +147,9 @@
 
 <body>
     <div class="login-dark">
+        <video autoplay muted loop id="myVideo">
+            <source src="/assets/img/stran.mp4" type="video/mp4">
+        </video>
         
         
         <form method="POST" action="{{ route('register') }}">
