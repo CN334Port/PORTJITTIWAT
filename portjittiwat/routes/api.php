@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
-
+use App\Http\Controllers\ProjectController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -34,3 +34,5 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
     Route::post('logout','Auth\AuthenticatedSessionController@destroy')->name('logout');
 });
 Route::resource('posts', PostController::class);
+Route::get('project', [ProjectController::class, "index"]);
+Route::get('projects', [ProjectController::class, "read"])->name('project');
