@@ -39,7 +39,7 @@
                         <a href="{{ route('posts.show', $value->id)}}" class="btn btn-primary">Show</a>
 
                         @auth('admin')
-                            <a href="{{ route('posts.edit', $value->id)}}" class="btn btn-primary">Edit</a>
+                            <a href="{{ route('posts.edit', $value->id)}}" class="btn btn-Secondary">Edit</a>
                             @else
                         @endauth
                         @csrf
@@ -56,6 +56,6 @@
         @endforeach
     </table>
 
-
+    {!! $data->links() !!}
 
 @endsection

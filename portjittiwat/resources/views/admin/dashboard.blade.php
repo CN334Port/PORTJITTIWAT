@@ -92,7 +92,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="/assets/img/korn.jpg" class="img-fluid" alt="">
+            <img src="/assets/img/korn123.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>UI/UX DESIGNER &amp; SOFTWARE ENGINEER INTERSHIP.</h3>
@@ -112,7 +112,7 @@
                 <ul>
                   <li><i class="bi bi-person-check-fill"></i> <strong>Age:</strong> <span>21</span></li>
                   <li><i class="bi bi-book-half"></i> <strong>Degree:</strong> <span>B.ENG in software Engineering</span></li>
-                  <li><i class="bi bi-envelope"></i> <strong>Email:</strong> <span>6210742232l@example.com</span></li>
+                  <li><i class="bi bi-envelope"></i> <strong>Email:</strong> <span>6210742232@student.tu.ac.th</span></li>
                   <li><i class="bi bi-person-workspace"></i> <strong>Work:</strong> <span>studying</span></li>
                 </ul>
               </div>
@@ -142,7 +142,7 @@
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
               <p><strong>A : What do I like to do?</strong> </p>
-              <p><strong>M :</strong> singing</p>
+              <p><strong>M : </strong> singing</p>
             </div>
           </div>
 
@@ -150,7 +150,7 @@
             <div class="count-box">
               <i class="bi-shop-window"></i>
               <p><strong>A : Favorite Places?</strong> </p>
-              <p><strong>M :</strong> My University</p>
+              <p><strong>M : </strong> My University</p>
             </div>
           </div>
 
@@ -158,7 +158,7 @@
             <div class="count-box">
               <i class="bi bi-music-note-beamed"></i>
               <p><strong>A : Favorite artist?</strong</p>
-              <p><strong>M :</strong> Eric clapton</p>
+              <p><strong>M : </strong> Eric clapton</p>
             </div>
           </div>
 
@@ -166,7 +166,7 @@
             <div class="count-box">
               <i class="bi bi-people"></i>
               <p><strong>A : Favorite sport?</strong></p>
-              <p><strong>M :</strong> Football</p>
+              <p><strong>M : </strong> Football</p>
             </div>
           </div>
 
@@ -209,6 +209,13 @@
               </div>
             </div>
 
+            <div class="progress">
+              <span class="skill">Vegas Pro <i class="val">6/10</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
@@ -234,6 +241,13 @@
               </div>
             </div>
 
+            <div class="progress">
+              <span class="skill">Microsoft office <i class="val">5.5/10</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -256,12 +270,12 @@
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>JITTIWAT MONPAEWONGSANONT</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 1+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
               <ul>
                 <li>Thailand, phetchabun, lomsak</li>
                 <li>(123) 456-7891</li>
-                <li>6210742232@example.com</li>
+                <li>6210742232@student.tu.ac.th</li>
               </ul>
             </div>
 
@@ -484,7 +498,7 @@
 
         <div class="section-title">
           <h2>Hobbies</h2>
-          <p>it's framework used for Develop application</p>
+          <p>it's facts about my lift style</p>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
@@ -617,7 +631,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>6210742232@example.com</p>
+                <p>6210742232@student.tu.ac.th</p>
               </div>
 
               <div class="phone">

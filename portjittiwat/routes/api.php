@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +17,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+
 });
+    
+    //admin
+Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
+    Route::namespace('Auth')->middleware('guest:admin')->group(function(){
+        Route::get('login','AuthenticatedSessionController@create')->name('login');
+        Route::post('login','AuthenticatedSessionController@store')->name('adminlogin');
+
+    });
+    Route::middleware('admin')->group(function(){
+        Route::get('dashboard','HomeController@index')->name('dashboard');
+
+    });
+    Route::post('logout','Auth\AuthenticatedSessionController@destroy')->name('logout');
+});
+Route::resource('posts', PostController::class);

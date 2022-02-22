@@ -95,7 +95,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="/assets/img/korn.jpg" class="img-fluid" alt="">
+            <img src="/assets/img/korn123.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>UI/UX DESIGNER &amp; SOFTWARE ENGINEER INTERSHIP.</h3>
@@ -115,7 +115,7 @@
                 <ul>
                   <li><i class="bi bi-person-check-fill"></i> <strong>Age:</strong> <span>21</span></li>
                   <li><i class="bi bi-book-half"></i> <strong>Degree:</strong> <span>B.ENG in software Engineering</span></li>
-                  <li><i class="bi bi-envelope"></i> <strong>Email:</strong> <span>6210742232l@example.com</span></li>
+                  <li><i class="bi bi-envelope"></i> <strong>Email:</strong> <span>6210742232@student.tu.ac.th</span></li>
                   <li><i class="bi bi-person-workspace"></i> <strong>Work:</strong> <span>studying</span></li>
                 </ul>
               </div>
@@ -259,12 +259,12 @@
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
-              <h4>Alex Smith</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+              <h4>JITTIWAT MONPAEWONGSANONT</h4>
+              <p><em>Innovative and deadline-driven Graphic Designer with 1+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
               <ul>
                 <li>Thailand, phetchabun, lomsak</li>
                 <li>(123) 456-7891</li>
-                <li>6210742232@example.com</li>
+                <li>6210742232@student.tu.ac.th</li>
               </ul>
             </div>
 
@@ -620,7 +620,7 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>6210742232@example.com</p>
+                <p>6210742232@student.tu.ac.th</p>
               </div>
 
               <div class="phone">
